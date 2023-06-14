@@ -37,3 +37,4 @@ jobs:
           echo "${{ github.ref_name }}"
           echo "${{ github.event_name }}"
           echo "${{ github.event.repository.html_url }}"
+          echo "${{ github.head_ref }}"
