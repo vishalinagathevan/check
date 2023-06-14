@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo "${{ github.actor }}_github-actions_${{ github.run_number }}"
+          echo "${{ github.ref_name }}"
+          echo "${{ github.event_name }}"
+          echo "${{ github.event.repository.html_url }}"
